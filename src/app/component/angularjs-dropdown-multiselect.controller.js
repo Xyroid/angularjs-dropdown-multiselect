@@ -80,6 +80,7 @@ export default function dropdownMultiselectController(
 		template: '{{getPropertyForObject(option, settings.displayProp)}}',
 		searchField: '$',
 		showAllSelectedText: false,
+		alignment: 'left'
 	};
 
 	const texts = {
